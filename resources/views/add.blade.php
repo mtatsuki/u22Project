@@ -11,7 +11,7 @@
             <!--キャッシュを残さない対策-->
             <meta http-equiv="Pragma" content="no-cache">
             <meta http-equiv="Cach-Content" content="no-store">
-    
+
             <title>add blade</title>
             <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
         </head>

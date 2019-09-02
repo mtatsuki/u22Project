@@ -11,6 +11,28 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get(
+    '/', function () {
+        return view('top');
+    }
+);
+
+Route::get(
+    '/post', function () {
+        return view('post');
+    }
+);
+
+
+Route::get(
+    '/show', function () {
+        return view('show');
+    }
+);
+
+
+Route::get(
+    '/add', function () {
+        return view('add');
+    }
+);

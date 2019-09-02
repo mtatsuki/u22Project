@@ -1,0 +1,111 @@
+.show{
+    header{
+        position: fixed;
+        top: 0;
+        background: #fff;
+        width: 100%;
+
+        h1{
+            text-align: center;
+            font-size: 60px;
+            font-weight: normal;
+            margin: 100px 0;
+        }
+
+    }
+    &__main_contents{
+        margin: 300px 0 310px;
+    }
+    &__question_box{
+        width: 70%;
+        margin: 0 auto ;
+        h2{
+            font-size: 40px;
+            font-weight: normal;
+        }
+        p{
+            font-size: 60px;
+        }
+    }
+    &__contents_list{
+        width: 80%;
+        margin: 50px auto;
+        border: 1px solid #000;
+        height: 700px;
+        border-radius: 100px;
+        overflow: scroll;
+        li{
+            border-bottom: solid 1px #000;
+            // border-radius: 100px;
+            width: 90%;
+            margin: 50px auto;
+            a{
+                color: #000;
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                text-decoration: none;
+                padding: 50px 100px;
+
+                p{
+                    &.user_name{
+                        font-size: 30px;
+                    }
+                    &.sample_text{
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+    }
+    &__answer_box{
+        width: 80%;
+        margin: 0 auto;
+        p{
+            font-size: 40px;
+        }
+        textarea{
+            border: 1px solid #000;
+            width: 100%;
+            height: 150px;
+            border-radius: 100px;
+            padding: 50px;
+            font-size: 20px;
+        }
+        input{
+            display: block;
+            width: 300px;
+            height: 90px;
+            padding: 10px 0;
+            font-size: 50px;
+            border-radius: 50px;
+            background: #000;
+            color: #fff;
+            margin: 50px auto;
+        }
+    }
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: #fff;
+        p{
+            margin: 50px auto;
+            width: 200px;
+            height: 200px;
+            &:first-of-type{
+                background: #333;
+                &:hover{
+                    background: #ccc;
+                }
+            }
+            a{
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+
+    }
+}

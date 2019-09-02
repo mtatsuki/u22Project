@@ -1,0 +1,53 @@
+.top{
+    &__access_point_list{
+        margin: 200px auto;
+        li{
+            border: solid 1px #000;
+            border-radius: 100px;
+            width: 80%;
+            padding: 50px 50px 50px 100px;
+            margin: 50px auto;
+            display: flex;
+            justify-content: space-between;
+
+            div{
+                &:first-of-type{
+                    p{
+                        &.access_name{
+                            font-size: 60px;
+                        }
+                        &.access_flag{
+                            font-size: 45px;
+                        }
+                    }
+                }
+            }
+            .acsess_map{
+                width: 150px;
+                height: 150px;
+                border: #000 1px solid;
+                border-radius: 50%;
+                &.not{
+                    a{
+                        background: #faa;
+
+                        &:hover{
+                            background: #f77;
+                        }
+                    }
+                }
+                a{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    background: #bfa;
+
+                    &:hover{
+                        background: #cf7;
+                    }
+                }
+            }
+        }
+    }
+}
